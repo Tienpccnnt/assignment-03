@@ -193,16 +193,16 @@ section > .container {
   gap: 30px;
   padding: 20px 0;
 }
+.nav-conten:nth-child(3){
+  grid-column: 1 / span 2;
+  border-top: 2px solid #d6c08d;
+}
 .nav-conten h4 {
   font-weight: 600;
   text-transform: uppercase;
 }
 .nav-conten ul li {
   color: #868585;
-}
-.nav-conten:first-child,
-.nav-conten:nth-child(2) {
-  border-bottom: 2px solid #d6c08d;
 }
 .nav-conten ul {
   list-style: none;
